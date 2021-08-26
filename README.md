@@ -8,8 +8,9 @@ Hatch is a brute force tool that is used to brute force most websites
 ```
  - added: 
  ``` 
-options.add_argument('--ignore-ssl-errors=yes')
-options.add_argument('--ignore-certificate-errors') 
+ options.add_argument('--ignore-ssl-errors=yes')
+ options.add_argument('--ignore-certificate-errors')
+ options.add_argument('--allow-running-insecure-content')
  ```
  - changed Chromedriver location for Linux Machine. 
 ## NOTE: I had to install chrome from google not chromium from apt for it to work on Linux. 
