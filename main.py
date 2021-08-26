@@ -1,5 +1,14 @@
 # Coded by METACHAR
 # Looking to work with other hit me up on my email @metachar1@gmail.com <--
+#
+# Forked from: https://github.com/nsgodshall/Hatch
+# Edited by Strat0m Aug. 26, 2021
+# Converted to Python3 using 2to3
+# https://docs.python.org/3/library/2to3.html
+#
+# added: options.add_argument('ignore-certificate-errors')
+# https://stackoverflow.com/questions/24507078/how-to-deal-with-certificates-using-selenium
+
 import sys
 import datetime
 import selenium
