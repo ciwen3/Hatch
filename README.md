@@ -42,7 +42,7 @@ pip3 install requests
 Chrome and chromedriver are required
 
 You can download chromedriver here: http://chromedriver.chromium.org/downloads
-for this fork, create a folder in your C drive called 'webdrivers' and place the executable file inside. If you want to use a different directory, simply change the CHROME_DVR_DIR variable inside the python file.
+for this fork, simply change the CHROME_DVR_DIR variable inside the python file to where you stored it.
 
 <br>
 ## How to use (text)
@@ -52,7 +52,3 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 4). The the login form <br>
 5). When Asked put in the username to brute force<br>
 6). Watch it go!
-
-## How to use (Video)
-[![IMAGE ALT TEXT](https://i.ytimg.com/vi/Hd_kQVnajxk/1.jpg)](https://youtu.be/Hd_kQVnajxk "Video Title")
-
