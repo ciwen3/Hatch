@@ -96,6 +96,7 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
     optionss.add_argument("--disable-extensions")
     options.add_argument('--ignore-ssl-errors=yes')
     options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--allow-running-insecure-content')
     count = 1 #count
     browser = webdriver.Chrome(CHROME_DVR_DIR)
     while True:
