@@ -1,9 +1,18 @@
 # Hatch
 Hatch is a brute force tool that is used to brute force most websites
 
+# Update! Aug. 26, 2021
+ - converted from Python2 to Python3 using 2to3. https://docs.python.org/3/library/2to3.html
+```
+2to3 -w main.py
+```
+ - added: ``` options.add_argument('ignore-certificate-errors') ``` options.add_argument('ignore-certificate-errors')
+ - changed Chromedriver location for Linux Machine. 
+## NOTE: I had to install chrome from google not chromium from apt for it to work on Linux. 
+
 # Update! v.1.3.1
 added arg support **yay**
-<br>
+<br> 
   -h, --help            show this help message and exit<br>
   -u USERNAME, --username=USERNAME Choose the username<br>
   --usernamesel=USERNAMESEL Choose the username selector<br>
@@ -15,14 +24,15 @@ dont worry if you load up the tool without any args youll go to the default wiza
 Also i removed the apt xvfb and pip2 pyvirtualdisplay
 ## Installation Instructions
 ```
-git clone https://github.com/MetaChar/Hatch
-python2 main.py
+git clone https://github.com/ciwen3/Hatch.git
+edit driver location in main.py
+python3 main.py
 ```
 
 ## Requirements
 ```
-pip2 install selenium
-pip2 install requests
+pip3 install selenium
+pip3 install requests
 ```
 Chrome and chromedriver are required
 
