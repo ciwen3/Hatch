@@ -35,16 +35,17 @@ python3 main.py
 ```
 
 ## Requirements
+ - pip modules
 ```
 pip3 install selenium
 pip3 install requests
 ```
-Chrome and chromedriver are required
+ - Chrome and chromedriver are required
 
 You can download chromedriver here: http://chromedriver.chromium.org/downloads
+
 for this fork, simply change the CHROME_DVR_DIR variable inside the python file to where you stored it.
 
-<br>
 ## How to use (text)
 1). Find a website with a login page<br>
 2). Inspect element to find the Selector of the username form<br>
