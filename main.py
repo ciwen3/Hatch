@@ -56,7 +56,7 @@ parser.add_option("--website", dest="website",help="choose a website")
 
 
 # CHROME_DVR_DIR = 'C:\webdrivers\chromedriver.exe'
-CHROME_DVR_DIR = '/home/strat0m/Hatch/chromedriver'
+CHROME_DVR_DIR = '/opt/Hatch/chromedriver'
 
 
 def wizard():
